@@ -3,7 +3,7 @@ const sourceMap = process.env.NODE_ENV === "development";
 
 module.exports = {
   // 基本路径
-  publicPath: "/dist/",
+  publicPath: "./dist/",
   // 输出文件目录
   outputDir: "dist",
   // eslint-loader 是否在保存的时候检查
